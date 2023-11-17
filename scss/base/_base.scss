@@ -27,3 +27,29 @@ body{
   padding: 12px 15px ;
   border-radius: 8px ;
 }
+
+body{
+  overflow-x: hidden;
+}
+
+.none{
+  display: none;
+}
+
+@mixin Tablet{
+  @media screen and (max-width:1470px){
+    @content
+  }
+}
+
+@mixin Phone{
+  @media screen and (max-width:999px){
+    @content
+  }
+}
+
+@mixin Laptop{
+  @media screen and (max-width:1320px){
+    @content
+  }
+}

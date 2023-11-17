@@ -11,42 +11,58 @@
 <body>
     <header class="header">
         <div class="container_menu">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__el"><a href="#!"><img src="./img/Logo.svg" alt="" class="logo"></a></li>
+                    <nav class="nav" id="nav">
+                        <ul class="nav__list nav__list-mob" id="nav-list">
+                            <li class="nav__logo"><a href="#!"><img src="./img/Logo.svg" alt="" class="logo"></a></li>
                             <div class="nav__right">
                                 <li class="nav__el"><a href="#!">Home</a></li>
                                 <li class="nav__el"><a href="#!">Episodes</a></li>
                                 <li class="nav__el"><a href="#!">About</a></li>
                                 <li class="nav__el"><a href="#contact">Contact</a></li>
+                                <li class="btn-menu"  ><a href="#!"><img id="open-btn" src="./img/menu.png" alt="" class="img-menu"></a></li>
                             </div>
                         </ul>
                     </nav>
+                    <div class="overlay" id="menu">
+                        <div class="menu_content">
+                            <div class="menu_box">
+                                <div class="nav__mob">
+                                    <li class="mob__el"><a href="#!">Home</a></li>
+                                    <li class="mob__el"><a href="#!">Episodes</a></li>
+                                    <li class="mob__el"><a href="#!">About</a></li>
+                                    <li class="mob__el"><a href="#contact">Contact</a></li>
+                                    <li class="mob-menu"><a href="#!" id="mob-close"><img src="./img/close.png" alt="" class="img-menu"></a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </div class="container_menu">
     </header>
     <main>
         <section class="main_header">
             <div class="container">
-                <div class="hed-left"><div class="negr"><img src="./img/particles/splash.svg" alt="" class="par"></div></div>
-                <div class="hed_right">
-                    <h1 class="title">Take your podcast to the next <span class="level">level</span></h1>
-
-                    <div class="hed_desc">
-                        <p class="pod_desc">Listen on</p><br>
-                        <ul class="socials">
-                            <li class="spotify"><img src="./img/spotify.svg" alt=""></li>
-                            <li class="magnet"><img src="./img/soundcloud.svg" alt=""></li>
-                            <li class="soundcl"><img src="./img/or_cloud.svg" alt=""></li>
-                            <li class="podcast"><img src="./img/podcast.svg" alt=""></li>
-                            <li class="stoyka"><img src="./img/stoyka.svg" alt=""></li>
-                        </ul>
+                <div class="hed-cont">
+                    <div class="hed-left"><div class="negr"><img src="./img/particles/splash.svg" alt="" class="par"></div></div>
+                    <div class="hed_right" id="hed_right">
+                        <h1 class="title">Take your podcast to the next <span class="level">level</span></h1>
+    
+                        <div class="hed_desc">
+                            <p class="pod_desc">Listen on</p><br>
+                            <ul class="socials">
+                                <li class="spotify"><img src="./img/spotify.svg" alt=""></li>
+                                <li class="magnet"><img src="./img/soundcloud.svg" alt=""></li>
+                                <li class="soundcl"><img src="./img/or_cloud.svg" alt=""></li>
+                                <li class="podcast"><img src="./img/podcast.svg" alt=""></li>
+                                <li class="stoyka"><img src="./img/stoyka.svg" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="episodes">
             <div class="container">
-                <div class="ep_titlebox"><div class="ep-title">Latest episodes</div> <button class="btn ep-tit-btn">View all episodes</button></div>
+                <div class="ep_titlebox" id="ep-title"><div class="ep-title">Latest episodes</div> <button class="btn ep-tit-btn">View all episodes</button></div>
                 <div class="episds">
                     <div class="episod">
                         <div class="eps-left-side"><img class="ep-left" src="./img/episodes//first.jpg" alt=""></div>
@@ -180,5 +196,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
