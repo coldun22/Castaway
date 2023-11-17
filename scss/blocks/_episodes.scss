@@ -1,0 +1,109 @@
+.episodes{
+    margin-top: 93px;
+    position: relative;
+    color: #fff;
+}
+
+.ep_titlebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ep-title{
+    font-size: 64px;
+    line-height: 79.2px;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+}
+
+.ep-tit-btn{
+    max-height: 51px;
+    max-width: 178px;
+    margin: 0;
+    bottom: 0;
+}
+
+.episds{
+    position: relative;
+    margin-top: 66px;
+}
+
+.episod{
+    background: #000;
+    height: 545px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.ep-left{
+    margin: 40px;
+    width: 389px;
+    height: 465px;
+}
+
+.ep-up-btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    border-radius: 6px;
+
+    background: $bg;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ep-btn{
+    transition: all 0.2s ease-in;
+    bottom: 0;
+}
+
+.ep-btn:hover{
+    background: #025b6f;
+}
+
+.ep-right-side{
+    margin-top: 48px;
+    left: 0;
+    position: relative;
+}
+
+
+
+.ep-num {
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    left: 0;
+    margin-top: 48px;
+}
+
+.episod-title{
+    margin-top: 18px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    display: flex;
+    max-width: 701px;
+}
+
+
+.ep-desc{
+    color: rgba(255,255,255,0.70);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    display: flex;
+    max-width: 757px;
+}
+
+.episod-sec{
+    margin-top: 60px;
+}

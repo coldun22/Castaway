@@ -1,0 +1,49 @@
+.person{
+    margin-top: 260px;
+    position: relative;
+    color:#fff;
+}
+
+.arr-img{
+    background: $blu;
+    padding-left: 17px;
+    padding-right: 24px;
+    padding-top: 34px;
+    padding-bottom: 40px;
+    border-radius: 50%;
+}
+
+.sub-arr{
+    color: $blu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.person-title{
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+
+}
+
+.person_desc{
+    max-width: 556px;
+    color: rgba(255,255,255,0.70);
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 28px;
+}
+
+.person-box{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+
+.person-right{
+    right: 0;
+    position: absolute;
+}

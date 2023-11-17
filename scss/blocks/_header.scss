@@ -1,0 +1,97 @@
+.nav{
+    position: relative;
+    display: flex;
+}
+
+.nav__list{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 46px 0;
+    color: #fff;
+
+}
+
+.nav__right{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.logo{
+    font-size: 40px;    
+    font-weight: 900;
+}
+
+a{
+    transition: all .2s ease-in;
+    color: #fff;
+}
+
+a:hover{
+    color: $blu;
+}
+
+.main_header{
+    margin-top: 66px;
+    position: relative;
+}
+
+.hed_right{
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.title{
+    margin-top: 294px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    max-width: 526px;
+    font-weight: 400;
+}
+
+.level{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    
+}
+
+.negr{
+    width: 650px;
+    height: 873px;
+    background-image: url('../../img/negrN.jpg');
+    position: relative;
+}
+
+.par{
+    width: 68px;
+    height: 74px;
+    position: absolute;
+    top: -28px;
+    left: -28px;
+}
+
+.pod_desc{
+    margin-top: 90px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-top: 16px;
+}

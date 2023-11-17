@@ -1,0 +1,58 @@
+.footer{
+    margin-top: 200px;
+    color: #fff;
+}
+
+.footer-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-el{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.foot-el > li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.foot-soc{
+    margin-top: 23px;
+}
+
+.soc-fot{
+    margin-left: 10px;
+}
+
+.footer-wrap{
+    min-width: 1100px;
+    position: relative;
+}
+
+
+
+.foot-lg{
+    width: 447px;
+    position: relative;
+}
+
+.el-sec{
+    position: relative;
+    width: 85px;
+}
+
+.el-third{
+    position: relative;
+    width: 178px;
+}
+
+.foot-socials{
+    display: flex;
+    gap: 17px;
+}
