@@ -29,7 +29,13 @@
     margin-top: 66px;
 }
 
+.nav__mob{
+    list-style-type: none;
+}
 
+.nav__el{
+    list-style: none;
+}
 
 .episod{
     background: #000;
@@ -37,12 +43,49 @@
     border-radius: 10px;
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@include Tablet{
+
+    .episod{
+        padding: 0;
+    }
+
+    .episod-title{
+        font-size: 45px !important;
+    }
+
+    .ep-up-btn{
+        font-size: 16px !important;
+    }
+
+    .ep-num{
+        font-size: 15px !important;
+    }
+
+    .ep-desc{
+        font-size: 20px !important;
+    }
+
+    .ep-left{
+        transform: scale(0.9);
+        margin: 0;
+        padding: 0;
+    }
+
+    .ep-right-side{
+        justify-content: flex-start;
+        top: 0;
+        right: 0;
+    }
 }
 
 .ep-left{
     margin: 40px;
-    width: 389px;
     height: 465px;
+    position: relative;
 }
 
 .ep-up-btn{

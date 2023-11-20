@@ -52,6 +52,14 @@
     text-align: center;
 }
 
+.nav__mob{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 .mob__el{
     margin-top: 20px;
 }

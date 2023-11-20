@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     mobBtn.forEach((el)=> {
         el.addEventListener('click', () => {
-            
+            document.body.style.position = 'relative'
             menu.style.display = 'none'
         })
     })
@@ -51,12 +51,14 @@ document.addEventListener('DOMContentLoaded', () => {
             el.style.overflow = 'hidden'
         })
         document.body.style.overflow = 'hidden'
+        document.body.style.positon = 'fixed'
         menu.style.display = 'block'
         nav.style.display = 'none'
         document.querySelectorAll(`:not(#menu)`).style.display = 'none'
     })
     
     closeBtn.addEventListener('click',() => {
+        document.body.style.position = 'relative'
         all.forEach((el) => {
             el.style.overflow = 'visible'
         })
